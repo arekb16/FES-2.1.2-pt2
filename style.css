@@ -73,10 +73,14 @@ button {
     justify-content: center;
 }
 
+#about, #discord, #contact {
+    padding: 48px 0;
+
+
+}
 /* ABOUT */
 
 #about {
-    padding: 48px 0;
     background-color: #f8ffdc;
 }
 
@@ -111,12 +115,22 @@ img {
 }
 
 .section__description--wrapper, .about__img--wrapper {
-    padding: 0 20px;
+    padding: 0 24px;
 
 }
 
 /* DISCORD */
 
 #discord {
-    background-color: #cafeff;
+    background-color: #cefeff;
+}
+
+/* CONTACT */
+
+#contact {
+    background-color: #dce9ff;
+}
+
+form {
+    width: 100%;
 }
